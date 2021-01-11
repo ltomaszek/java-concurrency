@@ -1,1 +1,1 @@
-# java-concurrency
+Project shows examples of using concurrency in Java with performance tests.
