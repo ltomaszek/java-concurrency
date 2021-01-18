@@ -1,0 +1,23 @@
+[33mcommit 10b0c0818262fcc46947a27a578bdacc3f78b4cb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: lukastomaszek <l.tomaszekk@gmail.com>
+Date:   Fri Jan 15 20:50:23 2021 +0100
+
+    Added package data_flow with class DataFlowDiagram and test
+
+[33mcommit 2b758bdb751946b604877d2cdf6ab044217c7a17[m[33m ([m[1;31morigin/new-main[m[33m)[m
+Author: lukastomaszek <l.tomaszekk@gmail.com>
+Date:   Wed Jan 13 17:22:58 2021 +0100
+
+    Added package threads with class MatrixManipulator and tests
+
+[33mcommit fc4e45ce793e0a3326dfe57ba366c01308b593bb[m
+Author: lukastomaszek <l.tomaszekk@gmail.com>
+Date:   Mon Jan 11 22:20:51 2021 +0100
+
+    Added ArrayManipulator
+
+[33mcommit 4faf4bc17977589379a7d28c0aee95050a66e16c[m
+Author: lukastomaszek <77054203+lukastomaszek@users.noreply.github.com>
+Date:   Mon Jan 11 21:54:49 2021 +0100
+
+    Initial commit
