@@ -16,7 +16,7 @@ class MatrixManipulatorTestPerformance {
 
     @BeforeAll
     static void setUp() {
-        REPEATS = 10;
+        REPEATS = 1;
         random = new Random();
     }
 

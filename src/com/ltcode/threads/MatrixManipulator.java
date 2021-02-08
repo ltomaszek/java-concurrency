@@ -136,29 +136,4 @@ public class MatrixManipulator {
             }
         }
     }
-
-    public static void main(String[] args) {
-
-
-
-        int[][] A = {{1,2,3}, {4,62,6}, {3,2,11}};
-        int[][] B = {{1,2,3}, {4,5,6}, {3,2,21}};
-
-
-        int N = A.length;
-        int L = B[0].length;
-
-        // matrix to return
-        int[][] C = new int[N][L];
-
-        int nCores = Runtime.getRuntime().availableProcessors();
-        int TOTAL_WORK = N*L;
-        int WORK_CHUNK = (TOTAL_WORK + nCores - 1) / nCores;
-
-        multiply(A, B, C, 0, TOTAL_WORK);
-
-        int[][] X = multiplySeq(A, B);
-        System.out.println(Arrays.deepToString(X));
-        System.out.println(Arrays.deepToString(C));
-    }
 }
